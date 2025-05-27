@@ -37,24 +37,52 @@ A simple static site generator written in Python. It converts Markdown files in 
    ./test.sh
    ```
 
-<!-- ## File Structure
+## File Structure
 
 ```
 .
-├── content/           # Markdown content (source files)
-│   └── majesty/
-│       └── index.md
+├── content/           
+│   ├── blog/
+│   │   ├── glorfindel/
+│   │   │   └── index.md
+│   │   ├── tom/
+│   │   │   └── index.md
+│   │   ├── majesty/
+│   │   │   └── index.md
+│   ├── contact/
+│   │   └── index.md
 │   └── index.md
-├── src/               # Python source code
-│   ├── copystatic.py      # Copies static files recursively
-│   ├── gencontent.py      # Generates HTML from Markdown
-│   ├── htmlnode.py        # HTML node classes
-│   ├── inline_markdown.py # Inline Markdown parsing
-│   ├── main.py            # Main entry point
-│   ├── markdown_blocks.py # Markdown block parsing
-│   └── textnode.py        # Text node classes
-├── static/            # Static assets (CSS, images)
+├── public/           
+│   ├── blog/
+│   │   ├── glorfindel/
+│   │   │   └── index.md
+│   │   ├── tom/
+│   │   │   └── index.md
+│   │   ├── majesty/
+│   │   │   └── index.md
+│   ├── contact/
+│   │   └── index.md
+│   ├── images/
+│   │   ├── glorfindel.png
+│   │   ├── rivendell.png
+│   │   ├── tolkien.png
+│   │   ├── tom.png
 │   ├── index.css
-│  
+│   └── index.html
+├── src/               
+│   ├── copystatic.py      
+│   ├── gencontent.py      
+│   ├── htmlnode.py        
+│   ├── inline_markdown.py 
+│   ├── main.py            
+│   ├── markdown_blocks.py 
+│   └── textnode.py        
+├── static/            
+│   ├── index.css
+│   └── images/
+│       ├── glorfindel.png
+│       ├── tom.png
+│       ├── rivendell.png
+│       ├── tolkien.png
 .
-``` -->
+```
