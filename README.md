@@ -1,4 +1,4 @@
-# Static Site Generator
+# Static Site Generator (Project is in progress)
 
 A simple static site generator written in Python. It converts Markdown files in the `content/` directory into styled HTML pages using a template, and copies static assets to the output directory.
 
